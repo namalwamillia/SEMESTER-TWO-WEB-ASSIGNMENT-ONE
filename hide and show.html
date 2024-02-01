@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="hide$seen">
+        <button onclick="hide()">Hide</button>
+        <button onclick="see()">Show</button>
+
+        <h1>JAVASCRIPT CAN HIDE AND SHOW HTML ELEMENTS</h1>
+
+        <p id="state" style="display: contents;"> Is this JavaScript World?</p>
+        <p id="check" style="display: none;">Yes your most welcome!</p>
+        
+
+</div>
+<script>
+    function hide(){
+        document.getElementById('state').style.display="none";
+    
+    }
+    function see(){
+            document.getElementById('check').style.display="block";
+    }
+
+</script>
+    
+</body>
+</html>

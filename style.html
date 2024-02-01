@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    
+    <div class="container">
+        
+        <button onclick="larger()">increase</button>
+        <button onclick="small()">reduce</button>
+      
+        <h1>JAVASCRIPT CAN CHANGE THE STYLE OF HTML ELEMENT</h1>
+        <p id="check">My Name is Namalwa Millia</p>
+
+    </div>
+    <script>
+        function larger() {
+            document.getElementById("check").style.fontSize="30px";
+        }
+        function  small(){
+            document.getElementById("check").style.fontSize="16px";
+        }
+        
+    </script>
+    
+</body>
+</html>

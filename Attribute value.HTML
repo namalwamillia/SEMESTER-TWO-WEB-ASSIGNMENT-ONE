@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgb(211, 231, 177);
+           font-size: x-large;
+           font-family:sans-serif
+            }
+            p{
+                color: rgb(37, 3, 148);
+            }
+    </style>
+
+</head>
+<body>
+    <P>JAVASCRIPT CAN CHANGE HTML ATTRIBUTE VALUES</P>
+    <button onclick="document.getElementById('myBulb').src='gallery/bulb.jpg'">Turn off the light</button>
+    <img id="myBulb" src="gallery/bulb.jpg" style="width:10px height=15px">
+    <button onclick="document.getElementById('myBulb').src='gallery/b0ulb.jpg'"></button>
+
+    <button onclick="document.getElementById('myBulb').src='gallery/light-bulb-2-1427493.jpg'">Turn on the light</button>
+    <img id="myBulb" src="" style="width:10px">
+    <button onclick="document.getElementById('myBulb').src=''"></button>
+
+
+    
+</body>
+</html>
